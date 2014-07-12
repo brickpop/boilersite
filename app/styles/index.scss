@@ -1,0 +1,42 @@
+@import "config";
+
+body {
+  font: 92.5% $font-stack;
+  color: $base-color;
+  background-color:$brand-color;
+  text-align: center;
+
+  /* EVERY ANGULAR TEMPLATE */
+
+  #header {
+    text-align: left;
+  }
+
+  #footer {
+    text-align: left;
+  }
+
+  #splash {
+
+  }
+
+  #welcome {
+
+  }
+
+  #home {
+
+  }
+
+  #login {
+
+  }
+
+  #signup {
+
+  }
+
+  #settings {
+
+  }
+}

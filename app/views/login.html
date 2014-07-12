@@ -1,0 +1,13 @@
+<div id="login" ng-controller="LoginCtrl" ng-cloak>
+	<h1>LOG IN</h1>
+	<p>Enter your credentials to access the site</p>
+	<form ng-submit="login()">
+		<label for="user">User name: </label>
+		<input type="text" name="user" ng-model="username" />
+		<br/>
+		<label for="password">Password: </label>
+		<input type="password" name="password" ng-model="password" />
+	</form>
+	<br/>
+	<button ng-click="login()">LOG IN</button>
+</div>

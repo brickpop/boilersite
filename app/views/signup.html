@@ -1,0 +1,16 @@
+<div id="signup" ng-controller="SignUpCtrl" ng-cloak>
+	<h1>SIGN UP</h1>
+	
+	<form>
+		<label for="username">User name: </label>
+		<input type="text" name="username" ng-model="username" />
+		<br/>
+		<label for="password">Password: </label>
+		<input type="password" name="password" ng-model="password" />
+		<br/>
+		<br/>
+		<label><input type="checkbox" ng-model="accept" /> I accept the terms of the service</label>
+	</form>
+	<br/>
+	<button ng-click="signup()">SIGN UP</button>
+</div>
